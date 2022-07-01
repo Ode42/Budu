@@ -1,5 +1,8 @@
 import React from 'react';
+import BuduRouter from './router/BuduRouter';
 
 export default function Wrapper(): JSX.Element {
-    return <div>Wrapper</div>;
+    return <div className="budu-wrapper">
+        <BuduRouter />
+    </div>;
 }
